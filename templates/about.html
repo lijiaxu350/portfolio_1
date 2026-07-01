@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h2> {{subtitle}} </h2>
+    <p> {{text}} </p>
+    <p> Hey all! I'm Jia and born and raised in Queens, NY. <br> 
+        My favorite thing to do is spending time with my friends and family 
+        <br> These include, but are not limited to: 
+        <ul> 
+            <li> Video Games (I am better than you) </li>
+            <li> Eating out using my friends' Beli accounts </li>
+            <li> Dilly Dallying around </li>
+            <li> Etc. </li>
+        </ul>
+    </p>
+    <img src="{{ url_for('static', filename='images/headpic.jpg') }}" alt="My headshot">
+{% endblock %}

@@ -1,0 +1,59 @@
+h1, h2{
+    text-align: center;
+}
+nav{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+img{
+    width: 200px;
+    border-radius: 30px;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+}
+p, ul{
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+}
+body {
+    background-color: #313338; /* main dark background */
+    color: #dbdee1; /* light gray text, easier on eyes than pure white */
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #2b2d31; /* slightly darker than body, like Discord's sidebar */
+}
+
+nav a {
+    background-color: #5865f2; /* Discord's signature blurple */
+    color: white;
+}
+
+nav a:hover {
+    background-color: #4752c4; /* darker blurple on hover */
+}
+
+h1, h2, h3 {
+    color: #f2f3f5; /* near-white for headers */
+}

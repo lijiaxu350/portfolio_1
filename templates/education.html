@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h2> {{subtitle}} </h2>
+    <p> {{text}} </p>
+    <img src="{{ url_for('static', filename='images/wang-center-featured.jpg') }}" alt="Stony Brook University Charles B. Wang Center building">
+    <p> I am currently a Computer Science Major at Stony Brook University, class of 2028 <br>
+        I currently have an interest in Artificial Intelligence and plan on specializing in that field. <br>
+        Relevant coursework:
+        <ul>
+            <li> CSE 114: Object-Oriented Programming </li>
+            <li> CSE 213: Foundations of Computer Science </li>
+            <li> CSE 214: Data Structures and Algorithms </li>
+            <li> CSE 220: System Fundamentals </li>
+            <li> CSE 307: Principles of Programming Languages </li>
+            <li> CSE 351: Data Science</li>
+        </ul>
+         
+    </p>
+{% endblock %}
